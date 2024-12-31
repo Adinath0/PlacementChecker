@@ -15,7 +15,10 @@ st.markdown("""
 {
   visibility:hidden;
 }
-
+#root > div:nth-child(1) > div.withScreencast > div > header
+{
+  visibility:hidden;
+}
 </style>
 """,unsafe_allow_html=True)
 st.markdown("<h1 style='text-align:center;'>Placement Checker</h1>",unsafe_allow_html=True)
